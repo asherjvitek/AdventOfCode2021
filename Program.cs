@@ -1,3 +1,5 @@
-﻿var res = Day3.DoTheThing(@"C:\Users\avitek.HOME_OFFICE\source\repos\AdventOfCode2021\inputs\day3.txt");
+﻿var test = args.Length > 0 && args[0] == "-test";
+
+var res = Day4.DoTheThing($"./inputs/day4{(test ? "_test" : "")}.txt");
 
 Console.WriteLine(res);
